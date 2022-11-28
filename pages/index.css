@@ -1,5 +1,55 @@
+
 @import url(../vendor/normalize.css);
 
-body {
-  font-family: 'Inter', sans-serif;
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/wrapper/wrapper.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+
+
+
+.content {
+}
+.lead {
+}
+.intro {
+}
+.photo-grid {
+}
+.places {
+}
+.cover {
+}
+.footer {
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter-Regular'),
+       url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Inter-Bold'),
+       url("Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("Inter-Bold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Inter-Black'),
+       url("Inter-Black.woff2?v=3.19") format("woff2"),
+       url("Inter-Black.woff?v=3.19") format("woff");
 }
