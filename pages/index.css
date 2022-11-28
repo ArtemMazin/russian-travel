@@ -9,13 +9,15 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
+@import url(../blocks/container/container.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 
-
-.content {
-}
-.lead {
-}
 .intro {
 }
 .photo-grid {
@@ -25,31 +27,4 @@
 .cover {
 }
 .footer {
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Inter-Regular'),
-       url("Inter-Regular.woff2?v=3.19") format("woff2"),
-       url("Inter-Regular.woff?v=3.19") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Inter-Bold'),
-       url("Inter-Bold.woff2?v=3.19") format("woff2"),
-       url("Inter-Bold.woff?v=3.19") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local('Inter-Black'),
-       url("Inter-Black.woff2?v=3.19") format("woff2"),
-       url("Inter-Black.woff?v=3.19") format("woff");
 }
