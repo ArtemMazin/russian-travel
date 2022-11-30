@@ -37,6 +37,47 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 
-.cover {}
+.cover {
+  position: relative;
+  /* padding: 0 0 92px 0; */
+}
+.cover__description {
+  max-width: 560px;
+  position: absolute;
+  top: calc(50% - ((152px + 32px + 66px) / 2));
+  left: calc(50% - 560px / 2);
+  z-index: 2;
+  text-align: center;
+}
+.cover__title {
+  margin: 0 0 32px 0;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+.cover__subtitle {
+  margin: 0 auto;
+  max-width: 360px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
 
-.footer {}
+.cover__overlay {
+  width: 100%;
+  padding-bottom: 62.5%;
+  background: #2a2c2f;
+  opacity: 0.3;
+  z-index: 1;
+  position: absolute;
+}
+
+.cover__background {
+  width: 100%;
+  padding-bottom: 62.5%;
+  background: url(../images/cover-trains.jpg);
+  background-size: cover;
+}
+
+.footer {
+}
