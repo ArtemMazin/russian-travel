@@ -26,79 +26,16 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
 
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__cards/places__cards.css);
 
-
-.places {
-  padding: 0 0 92px 0;
-}
-
-.places__cards {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  list-style-type: none;
-}
-
-.place {
-  display: grid;
-  grid-template-columns: minmax(440px, 460px) minmax(456px, 1fr);
-  align-items: start;
-  row-gap: 48px;
-  column-gap: 40px;
-}
-
-.place__title {
-  grid-row: 1;
-  grid-column: 1;
-  margin: 0;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 76px;
-}
-
-.place__image {
-  grid-row: 2;
-  grid-column: 1;
-  max-width: 460px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.place__website {
-  grid-row: 1;
-  grid-column: 2;
-  align-self: end;
-}
-
-.place__url-heading {
-  margin: 0 0 12px 0;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 12px;
-  letter-spacing: 2px;
-  color: #AAAAAA;
-}
-
-.place__link {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  color: inherit;
-}
-
-.place__paragraph {
-  grid-column: 2;
-}
-
-.place__paragraph p {
-  margin: 0 0 26px 0;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 29px;
-}
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
 
 .cover {}
 

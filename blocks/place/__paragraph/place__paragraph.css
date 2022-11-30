@@ -1,0 +1,10 @@
+.place__paragraph {
+  grid-column: 2;
+}
+
+.place__paragraph p {
+  margin: 0 0 26px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
