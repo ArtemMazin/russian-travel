@@ -39,6 +39,9 @@
 
 .cover {
   position: relative;
+  margin: 0 auto;
+  max-width: 1184px;
+  width: 100%;
   /* padding: 0 0 92px 0; */
 }
 .cover__description {
@@ -73,7 +76,6 @@
 }
 
 .cover__background {
-  width: 100%;
   padding-bottom: 62.5%;
   background: url(../images/cover-trains.jpg);
   background-size: cover;
