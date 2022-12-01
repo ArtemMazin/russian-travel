@@ -2,8 +2,6 @@
 
 @import url(../blocks/body/body.css);
 
-@import url(../blocks/wrapper/wrapper.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
@@ -37,49 +35,12 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 
-.cover {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1184px;
-  width: 100%;
-  /* padding: 0 0 92px 0; */
-}
-.cover__description {
-  max-width: 560px;
-  position: absolute;
-  top: calc(50% - ((152px + 32px + 66px) / 2));
-  left: calc(50% - 560px / 2);
-  z-index: 2;
-  text-align: center;
-}
-.cover__title {
-  margin: 0 0 32px 0;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 76px;
-}
-.cover__subtitle {
-  margin: 0 auto;
-  max-width: 360px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-}
-
-.cover__overlay {
-  width: 100%;
-  padding-bottom: 62.5%;
-  background: #2a2c2f;
-  opacity: 0.3;
-  z-index: 1;
-  position: absolute;
-}
-
-.cover__background {
-  padding-bottom: 62.5%;
-  background: url(../images/cover-trains.jpg);
-  background-size: cover;
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
 
 .footer {
 }
