@@ -1,7 +1,11 @@
 .place {
+  margin: 0 0 80px 0;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 1fr);
   align-items: start;
   row-gap: 48px;
   column-gap: 40px;
+}
+.place:last-child {
+  margin: 0;
 }

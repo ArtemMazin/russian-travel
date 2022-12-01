@@ -1,8 +1,8 @@
 .places__cards {
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 80px; */
   list-style-type: none;
 }
