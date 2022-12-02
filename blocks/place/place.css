@@ -9,3 +9,14 @@
 .place:last-child {
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+  }
+}

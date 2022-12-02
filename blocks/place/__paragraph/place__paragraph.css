@@ -8,6 +8,14 @@
   font-weight: 400;
   line-height: 29px;
 }
+
 .place__paragraph p:last-child {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

@@ -1,3 +1,9 @@
 .intro {
   padding: 0 48px 92px 48px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 0 24px 88px 24px;
+  }
+}
