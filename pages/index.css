@@ -37,9 +37,9 @@
 @import url(../blocks/place/__website/place__website.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__container/cover__container.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__description/cover__description.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
