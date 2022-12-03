@@ -1,6 +1,6 @@
 .place__title {
-  grid-row: 1;
-  grid-column: 1;
+  /* grid-row: 1;
+  grid-column: 1; */
   margin: 0;
   font-size: 72px;
   font-weight: 900;

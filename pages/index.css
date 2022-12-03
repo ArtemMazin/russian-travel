@@ -49,31 +49,26 @@
 @import url(../blocks/footer/__link/footer__link.css);
 
 
-@media (max-width: 468px) {
-  .place {
-    column-gap: 28px;
-    grid-template-columns: minmax(320px, 1fr);
-  }
-
-  .place__image {
-    grid-row: auto;
-    grid-column: auto;
-  }
-
-  .place__paragraph {
-    grid-column: auto;
-  }
-
+@media (max-width: 748px) {
   .place__title {
-    grid-row: auto;
-    grid-column: auto;
+    padding: 0 16px;
     font-size: 32px;
     line-height: 35px;
   }
 
+  .place__paragraph {
+    padding: 0 16px;
+  }
+
   .place__website {
-    grid-row: auto;
-    grid-column: auto;
+    padding: 0 16px;
+  }
+
+  .place {
+    column-gap: 0;
+    row-gap: 32px;
+    grid-template-columns: minmax(320px, 1fr);
+    margin: 0 0 50px 0;
   }
 
   .lead__title {
