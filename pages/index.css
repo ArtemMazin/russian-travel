@@ -49,5 +49,44 @@
 @import url(../blocks/footer/__link/footer__link.css);
 
 
+@media (max-width: 468px) {
+  .place {
+    column-gap: 28px;
+    grid-template-columns: minmax(320px, 1fr);
+  }
 
+  .place__image {
+    grid-row: auto;
+    grid-column: auto;
+  }
 
+  .place__paragraph {
+    grid-column: auto;
+  }
+
+  .place__title {
+    grid-row: auto;
+    grid-column: auto;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .place__website {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .footer__links {
+    display: block;
+  }
+}
