@@ -3,5 +3,6 @@
   position: relative;
   text-align: center;
   color: #FFF;
-  text-decoration: none;
+  align-self: center;
+  justify-self: center;
 }

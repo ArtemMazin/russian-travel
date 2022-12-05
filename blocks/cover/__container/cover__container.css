@@ -1,8 +1,12 @@
 .cover__container {
-  /* display: block; */
   position: relative;
   width: 100%;
-  
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .cover__container::before {
   content: "";
