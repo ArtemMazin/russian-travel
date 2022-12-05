@@ -6,3 +6,8 @@
   align-self: center;
   justify-self: center;
 }
+@media (max-width: 320px) {
+  .cover__description {
+    max-width: 288px;
+  }
+}

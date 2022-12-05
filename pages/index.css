@@ -48,8 +48,16 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
+.header__logo {
+  max-width: 176px;
+  width: 100%;
+}
+@media (max-width: 320px) {
 
-@media (max-width: 748px) {
+  .header__logo {
+    max-width: 142px;
+  }
+
   .place__title {
     padding: 0 16px;
     font-size: 32px;
@@ -72,6 +80,7 @@
   }
 
   .lead__title {
+    margin: 0 auto 16px auto;
     font-size: 40px;
     line-height: 44px;
   }
@@ -82,6 +91,55 @@
   }
 
   .footer__links {
-    display: block;
+    margin: 0;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer__link {
+    margin: 0;
+  }
+
+  .footer {
+    padding: 64px 24px 24px 16px;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .photo-grid {
+    padding: 0 16px 64px 16px;
+  }
+
+  .photo-grid__items {
+    gap: 12px;
+  }
+
+  .intro {
+    padding: 0 16px 64px 16px;
+  }
+
+  .lead {
+    padding: 0 0 64px 0;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .lead__subtitle {
+    margin: 0 auto 40px auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
   }
 }

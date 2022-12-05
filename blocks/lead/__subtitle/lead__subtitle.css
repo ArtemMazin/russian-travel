@@ -6,3 +6,9 @@
   font-weight: 400;
   line-height: 36px;
 }
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 56px auto;
+  }
+}
