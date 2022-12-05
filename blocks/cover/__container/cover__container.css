@@ -1,9 +1,12 @@
 .cover__container {
-  display: block;
+  /* display: block; */
+  position: relative;
+  width: 100%;
+  
 }
 .cover__container::before {
-  content:"";
-    display: block;
+  content: "";
+  display: block;
   width: 100%;
   padding-bottom: 62.5%;
   background: #2a2c2f;

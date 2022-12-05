@@ -1,5 +1,10 @@
 .cover__background {
+  width: 100%;
   padding-bottom: 62.5%;
   background: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

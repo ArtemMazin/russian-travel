@@ -1,8 +1,6 @@
 .cover__description {
   max-width: 560px;
-  position: absolute;
-  top: calc(50% - ((152px + 32px + 66px) / 2));
-  left: calc(50% - 560px / 2);
+  position: relative;
   text-align: center;
   color: #FFF;
   text-decoration: none;
