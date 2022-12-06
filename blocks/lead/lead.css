@@ -7,3 +7,8 @@
     padding: 0 0 88px 0;
   }
 }
+@media (max-width: 425px) {
+  .lead {
+    padding: 0 0 64px 0;
+  }
+}

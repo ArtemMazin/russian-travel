@@ -21,3 +21,8 @@
     gap: 16px;
   }
 }
+@media (max-width: 425px) {
+  .photo-grid__items {
+    gap: 12px;
+  }
+}

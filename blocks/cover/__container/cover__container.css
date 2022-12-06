@@ -19,4 +19,5 @@
 }
 .cover__container:hover:before {
   opacity: 0.8;
+  transition: 0.4s;
 }

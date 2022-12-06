@@ -22,3 +22,16 @@
     margin: 0 0 72px 0;
   }
 }
+@media (max-width: 748px) {
+  .place {
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 1fr);
+  }
+}
+@media (max-width: 684px) {
+  .place {
+    column-gap: 0;
+    row-gap: 32px;
+    grid-template-columns: minmax(320px, 1fr);
+    margin: 0 0 50px 0;
+  }
+}

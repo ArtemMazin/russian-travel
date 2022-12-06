@@ -1,6 +1,4 @@
 .place__title {
-  /* grid-row: 1;
-  grid-column: 1; */
   margin: 0;
   font-size: 72px;
   font-weight: 900;
@@ -11,5 +9,12 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+  }
+}
+@media (max-width: 425px) {
+  .place__title {
+    padding: 0 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

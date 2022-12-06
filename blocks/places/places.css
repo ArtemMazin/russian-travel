@@ -2,12 +2,12 @@
   padding: 0 48px 92px 48px;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 800px) {
   .places {
     padding: 0 24px 90px 24px;
   }
 }
-@media (max-width: 748px) {
+@media (max-width: 425px) {
   .places {
     padding: 0 0 66px 0;
   }
