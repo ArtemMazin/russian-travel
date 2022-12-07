@@ -1,13 +1,9 @@
 .place {
-  margin: 0 0 80px 0;
   display: grid;
   grid-template-columns: minmax(320px, 460px) minmax(456px, 1fr);
   align-items: start;
   row-gap: 48px;
   column-gap: 40px;
-}
-.place:last-child {
-  margin: 0;
 }
 
 @media (max-width: 1024px) {
@@ -19,7 +15,6 @@
 @media (max-width: 868px) {
   .place {
     column-gap: 28px;
-    margin: 0 0 72px 0;
   }
 }
 @media (max-width: 748px) {
@@ -32,6 +27,5 @@
     column-gap: 0;
     row-gap: 32px;
     grid-template-columns: minmax(320px, 1fr);
-    margin: 0 0 50px 0;
   }
 }
