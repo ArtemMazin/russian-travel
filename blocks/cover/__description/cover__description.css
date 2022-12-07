@@ -1,6 +1,6 @@
 .cover__description {
   max-width: 560px;
-  position: relative;
+  z-index: 1;
   text-align: center;
   color: #FFF;
   align-self: center;

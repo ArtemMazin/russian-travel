@@ -1,6 +1,6 @@
 .footer__link {
   margin: 0 18px 0 0;
-  color: inherit;
+  color: #FFF;
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -13,7 +13,6 @@
 @media (max-width: 425px) {
   .footer__link {
     margin: 0;
-    font-family: Inter;
     font-size: 24px;
     line-height: 24px;
   }
