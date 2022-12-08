@@ -1,10 +1,7 @@
 .cover__description {
-  max-width: 560px;
-  z-index: 1;
+  /* max-width: 560px;
   text-align: center;
-  color: #FFF;
-  align-self: center;
-  justify-self: center;
+  color: #FFF; */
 }
 @media (max-width: 320px) {
   .cover__description {
