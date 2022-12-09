@@ -1,4 +1,6 @@
 .place__image {
+  display: block;
+  max-width: 460px;
   width: 100%;
   object-fit: cover;
 }
