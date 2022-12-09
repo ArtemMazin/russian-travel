@@ -1,12 +1,8 @@
 .place__paragraph {
-  margin: 0 0 26px 0;
+  margin: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-}
-
-.place__paragraph:last-child {
-  margin: 0;
 }
 
 @media (max-width: 868px) {
@@ -17,6 +13,6 @@
 }
 @media (max-width: 425px) {
   .place__paragraph {
-    padding: 0 16px;
+    margin: 0 16px;
   }
 }
